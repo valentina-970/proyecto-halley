@@ -1,0 +1,23 @@
+# Compilados y archivos de ejecucion
+trabajo/
+logs/
+
+# Haskell
+haskell-integrador/dist-newstyle/
+
+# Java
+java-custodio/target/
+
+# Elixir
+elixir-estacion/_build/
+elixir-estacion/deps/
+elixir-estacion/cola/
+
+# Prolog
+*.qlf
+
+# Editores
+.idea/
+*.iml
+.vscode/
+.elixir_ls/

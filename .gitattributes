@@ -1,0 +1,4 @@
+# Finales de linea LF en el repositorio para que los scripts .sh funcionen en Git Bash
+* text=auto eol=lf
+*.jar binary
+*.png binary
