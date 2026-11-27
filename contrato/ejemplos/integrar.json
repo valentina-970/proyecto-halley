@@ -1,0 +1,24 @@
+{
+  "crudos": [
+    {"id": "raw-tarjetas-0004", "fuente": "tarjetas", "ordinal": 4, "linea": "2041-06-14T01:20:33,IV-07,P4,LAB-B,GEN,OK"},
+    {"id": "raw-tarjetas-0005", "fuente": "tarjetas", "ordinal": 5, "linea": "2041-06-14T01:20:33,IV-07,P4,LAB-B,GEN,OK"},
+    {"id": "raw-tarjetas-0007", "fuente": "tarjetas", "ordinal": 7, "linea": "2041-06-14T0#:4?:1?,AK-0?,P2,DO"}
+  ],
+  "eventos": [
+    {
+      "id": "ev-0007",
+      "evidencia_id": "raw-tarjetas-0004",
+      "ts": "2041-06-14T01:20:33Z",
+      "precision": "exacta",
+      "margen_s": 0,
+      "fuente": "tarjetas",
+      "tipo": "paso_puerta",
+      "persona": {"estado": "resuelta", "candidatos": ["IV-07"]},
+      "datos": {"tarjeta": "IV-07", "puerta": "P4", "desde": "LAB-B", "hacia": "GEN", "resultado": "OK"}
+    }
+  ],
+  "problemas": [
+    {"id": "pb-002", "evidencia_id": "raw-tarjetas-0005", "tipo": "duplicado", "motivo": "Misma tarjeta, puerta, hora y resultado que raw-tarjetas-0004", "usado": false},
+    {"id": "pb-003", "evidencia_id": "raw-tarjetas-0007", "tipo": "corrupto", "motivo": "Se esperaban 6 campos separados por coma y llegaron 4", "usado": false}
+  ]
+}
