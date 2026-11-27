@@ -1,0 +1,21 @@
+{
+  "peticion": {
+    "fuente": "tarjetas",
+    "linea": "2041-06-14T02:52:10,JS-01,P7,GEN,ALM,OK",
+    "evidencia_id": "raw-tarjetas-5e0c3b1a9f"
+  },
+  "respuesta": {
+    "evento": {
+      "id": "ev-tarjetas-5e0c3b1a9f",
+      "evidencia_id": "raw-tarjetas-5e0c3b1a9f",
+      "ts": "2041-06-14T02:52:10Z",
+      "precision": "exacta",
+      "margen_s": 0,
+      "fuente": "tarjetas",
+      "tipo": "paso_puerta",
+      "persona": {"estado": "resuelta", "candidatos": ["JS-01"]},
+      "datos": {"tarjeta": "JS-01", "puerta": "P7", "desde": "GEN", "hacia": "ALM", "resultado": "OK"}
+    },
+    "problema": null
+  }
+}

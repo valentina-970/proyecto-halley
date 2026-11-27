@@ -1,0 +1,19 @@
+{
+  "peticion": {
+    "pregunta": {"tipo": "quien_en_modulo", "modulo": "GEN", "desde": "2041-06-14T01:30:00Z", "hasta": "2041-06-14T01:30:00Z"},
+    "snapshot": "(el contenido de snapshot.json)"
+  },
+  "respuesta": {
+    "resultado": "confirmado",
+    "personas": [
+      {
+        "id": "IV-07",
+        "estado": "confirmado",
+        "evidencia": ["ev-0007"],
+        "explicacion": "Entró a GEN por P4 a las 01:20:33 y no hay registro de salida; todas las puertas de GEN tienen lector y la energía seguía activa."
+      }
+    ],
+    "evidencia": ["ev-0007"],
+    "explicacion": "(una frase por persona)"
+  }
+}
